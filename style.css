@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    border: 1px solid gray;
+}
+
+.hide {
+    background: rgb(175, 175, 175);
+    border: 3px outset lightgray;
+    cursor: default;
+}
+
+.rmClick {
+    cursor: default;
+}
+
+.clicked {
+    background: lightgray;
+    cursor: default;
+    font-weight: bold;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: red;
+}
+
+.four {
+    color: purple;
+}
+
+.five {
+    color: maroon;
+}
+
+.six {
+    color: turquoise;
+}
+
+.seven {
+    color: black;
+}
+
+.eight {
+    color: gray;
+}
+
+.bomb {
+    color: black;
+    background: red;
+}
+
+.gameOver {
+    width: 250px;
+    height: 250px;
+
+}
+
+.recordsTable {
+    float: right;
+    margin-right: 100px;
+    width: 200px;
+}
